@@ -1,11 +1,11 @@
 {
-  "name" : "Potluck Screen Sharing",
+  "name" : "Oneclick Screen Sharing",
   "author": "Anthony Harley",
-  "version" : "1.0",
+  "version" : "1.11",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
-  "description" : "This Chrome extension is developed primary for https://potluck.chat/. It doesn't do anything except capture content of your screen.",
-  "homepage_url": "https://potluck.chat/",
+  "description" : "This Chrome extension is developed primary for https://oneclick.chat/. It doesn't do anything except capture content of your screen.",
+  "homepage_url": "https://oneclick.chat/",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
@@ -14,7 +14,9 @@
     "matches": [
       "https://staging.potluck.chat/*",
       "https://potluck.chat/*",
-      "https://dev.potluck:4443/*"
+      "https://dev.potluck:4443/*",
+      "https://staging.oneclick.chat/*",
+      "https://oneclick.chat/*" 
     ]
   },
   "icons": {
